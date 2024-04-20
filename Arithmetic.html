@@ -50,6 +50,18 @@
   document.getElementById("subtractResult").innerText = 5 - 3;
   document.getElementById("multiplyResult").innerText = 4 * 3;
   document.getElementById("divideResult").innerText = 10 / 2;
+
+  // New lines highlighting the additional arithmetic operations
+  document.write('<div class="operation add">7 + 8 = <span id="addResult2"></span></div>');
+  document.write('<div class="operation subtract">15 - 6 = <span id="subtractResult2"></span></div>');
+  document.write('<div class="operation multiply">9 × 5 = <span id="multiplyResult2"></span></div>');
+  document.write('<div class="operation divide">20 ÷ 4 = <span id="divideResult2"></span></div>');
+
+  // Perform additional arithmetic operations
+  document.getElementById("addResult2").innerText = 7 + 8;
+  document.getElementById("subtractResult2").innerText = 15 - 6;
+  document.getElementById("multiplyResult2").innerText = 9 * 5;
+  document.getElementById("divideResult2").innerText = 20 / 4;
 </script>
 
 </body>
