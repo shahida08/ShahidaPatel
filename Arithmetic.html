@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Beautiful Arithmetic Operations</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  .operation {
+    display: inline-block;
+    border: 2px solid #333;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  .add {
+    color: #009900;
+  }
+  .subtract {
+    color: #cc3300;
+  }
+  .multiply {
+    color: #3366cc;
+  }
+  .divide {
+    color: #993399;
+  }
+</style>
+</head>
+<body>
+  <h1>Beautiful Arithmetic Operations</h1>
+  
+  <div class="operation add">2 + 3 = <span id="addResult"></span></div>
+  <div class="operation subtract">5 - 3 = <span id="subtractResult"></span></div>
+  <div class="operation multiply">4 × 3 = <span id="multiplyResult"></span></div>
+  <div class="operation divide">10 ÷ 2 = <span id="divideResult"></span></div>
+
+<script>
+  // Perform arithmetic operations
+  document.getElementById("addResult").innerText = 2 + 3;
+  document.getElementById("subtractResult").innerText = 5 - 3;
+  document.getElementById("multiplyResult").innerText = 4 * 3;
+  document.getElementById("divideResult").innerText = 10 / 2;
+</script>
+
+</body>
+</html>
